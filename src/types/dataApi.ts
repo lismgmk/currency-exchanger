@@ -1,4 +1,4 @@
-export interface IData {
+export type IData = {
     Date: string,
     PreviousDate: string,
     PreviousURL: string,
@@ -10,7 +10,7 @@ type IValute = {
     [key: string]: IValuteData;
 }
 
-export interface IValuteData {
+export type IValuteData = {
     ID: string,
     NumCode: string,
     CharCode: string,
